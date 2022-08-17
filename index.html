@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form-validation</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-div">
+           <h1>Register</h1>
+            <form action="get" class="parent">
+               <div class="input-control">
+                <label for="name">Name</label>
+                    <input type="text" class="name">
+                
+               <div class="error">
+
+               </div>
+            </div>
+                <div class="input-control">
+                    <label for="email">Email</label>
+                    <input type="text" class="email" >
+                
+                <div class="error">
+                
+                </div>
+            </div>
+                <div class="input-control">
+                    <label for="username">Username</label>
+                    <input type="text" class="username">
+        
+                <div class="error">
+                
+                </div>
+            </div>
+                <div class="input-control">
+                    <label for="password">Create Password</label>
+                    <input type="password" class="password">
+                
+                <div class="visible" style="color:red ;">your password is short and simple try adding some punctuation marks</div>
+                <div class="error">
+                
+                </div>
+            </div>
+                <div class="input-control">
+                    <label for="email">Confirm Password</label>
+                    <input type="password" class="con-pass">
+                
+                <div class="error">
+                
+                </div>
+            </div>
+                <div class="hidden" style="color:red ;">*try again your password does not match*</div>
+             
+                <button class="btn-sub">sign in</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
