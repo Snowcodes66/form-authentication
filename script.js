@@ -90,6 +90,8 @@ const validateInput=function () {
 
     if (trimName!=='' && trimPassword !=='' & trimEmail!=='' && trimConPass!=='' && trimUsername!=='') {
         alert('signed in successful')
+        hidden.classList.remove('hidden')
+        formDiv.classList.add('hidden')
     }
 
 };
