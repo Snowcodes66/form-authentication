@@ -88,7 +88,9 @@ const validateInput=function () {
         setSuccess(person)
     }
 
-
+    if (trimName!=='' && trimPassword !=='' & trimEmail!=='' && trimConPass!=='' && trimUsername!=='') {
+        alert('signed in successful')
+    }
 
 };
 
